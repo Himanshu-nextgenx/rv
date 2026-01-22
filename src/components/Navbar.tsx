@@ -31,16 +31,26 @@ export const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 pr-4">
           <div className="relative w-10 h-10 flex items-center justify-center">
-            <svg viewBox="0 0 40 40" className="w-full h-full">
+            <svg viewBox="0 0 100 80" className="w-full h-full">
+              {/* R shape */}
               <path
-                d="M8 10 L20 30 L24 22 L28 30 L32 10 L28 10 L26 18 L24 14 L20 22 L16 14 L14 18 L12 10 Z"
+                d="M10 70 L10 10 L30 10 L45 25 L30 40 L50 70 L38 70 L22 45 L22 70 Z"
                 fill="currentColor"
                 className="text-secondary-foreground"
               />
-              <circle cx="24" cy="16" r="2" fill="hsl(var(--primary))" />
+              {/* V shape with camera lens */}
+              <path
+                d="M45 10 L60 50 L75 10 L88 10 L65 70 L55 70 L32 10 Z"
+                fill="currentColor"
+                className="text-secondary-foreground"
+              />
+              {/* Camera lens circle */}
+              <circle cx="60" cy="28" r="8" fill="hsl(200 80% 50%)" />
+              <circle cx="60" cy="28" r="4" fill="hsl(200 90% 30%)" />
+              <circle cx="58" cy="26" r="1.5" fill="hsl(200 80% 70%)" />
             </svg>
           </div>
-          <span className="font-bold text-secondary-foreground hidden sm:inline">
+          <span className="font-bold text-secondary-foreground hidden sm:inline tracking-wider">
             RV VISIONARY
           </span>
         </a>
