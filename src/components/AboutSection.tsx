@@ -8,7 +8,7 @@ export const AboutSection = () => {
           {/* Left Content */}
           <div>
             <span className="tag-neon mb-6">CREATIVE AGENCY</span>
-            
+
             <h2 className="heading-lg text-secondary-foreground mb-6">
               Turning Ideas Into{" "}
               <span className="text-primary">Masterpieces</span>
@@ -57,7 +57,7 @@ export const AboutSection = () => {
                 alt="Our creative team at work"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
-              
+
               {/* Overlay Tag */}
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-secondary/90 backdrop-blur-sm rounded-2xl p-4">

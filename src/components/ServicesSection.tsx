@@ -55,27 +55,24 @@ export const ServicesSection = () => {
             {services.map((service, index) => (
               <div
                 key={service.number}
-                className={`service-item group ${
-                  activeIndex === index ? "border-primary/50" : ""
-                }`}
+                className={`service-item group ${activeIndex === index ? "border-primary/50" : ""
+                  }`}
                 onMouseEnter={() => setActiveIndex(index)}
               >
                 <span
-                  className={`service-number text-2xl font-bold transition-colors duration-300 ${
-                    activeIndex === index
-                      ? "text-primary"
-                      : "text-secondary-foreground/30"
-                  }`}
+                  className={`service-number text-2xl font-bold transition-colors duration-300 ${activeIndex === index
+                    ? "text-primary"
+                    : "text-secondary-foreground/30"
+                    }`}
                 >
                   {service.number}
                 </span>
                 <div className="flex-1">
                   <h3
-                    className={`text-xl font-semibold mb-1 transition-colors duration-300 ${
-                      activeIndex === index
-                        ? "text-secondary-foreground"
-                        : "text-secondary-foreground/70"
-                    }`}
+                    className={`text-xl font-semibold mb-1 transition-colors duration-300 ${activeIndex === index
+                      ? "text-secondary-foreground"
+                      : "text-secondary-foreground/70"
+                      }`}
                   >
                     {service.title}
                   </h3>
@@ -84,11 +81,10 @@ export const ServicesSection = () => {
                   </p>
                 </div>
                 <ArrowRight
-                  className={`w-5 h-5 transition-all duration-300 ${
-                    activeIndex === index
-                      ? "text-primary translate-x-2"
-                      : "text-secondary-foreground/30"
-                  }`}
+                  className={`w-5 h-5 transition-all duration-300 ${activeIndex === index
+                    ? "text-primary translate-x-2"
+                    : "text-secondary-foreground/30"
+                    }`}
                 />
               </div>
             ))}

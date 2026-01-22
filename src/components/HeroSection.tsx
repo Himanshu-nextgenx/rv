@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Star, Sparkles, Camera, Video } from "lucide-react";
-import heroPerson from "@/assets/hero-person.jpg";
+import heroPerson from "@/assets/hero-persons.png";
 
 export const HeroSection = () => {
   return (
@@ -69,7 +69,7 @@ export const HeroSection = () => {
                   alt="Creative Director"
                   className="w-full h-full object-cover object-top"
                 />
-                
+
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary/20 to-transparent" />
               </div>

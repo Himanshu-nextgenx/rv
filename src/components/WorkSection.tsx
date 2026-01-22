@@ -80,11 +80,10 @@ export const WorkSection = () => {
             <button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
-                filter === category
-                  ? "bg-secondary text-secondary-foreground"
-                  : "bg-muted text-muted-foreground hover:bg-secondary/10"
-              }`}
+              className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${filter === category
+                ? "bg-secondary text-secondary-foreground"
+                : "bg-muted text-muted-foreground hover:bg-secondary/10"
+                }`}
             >
               {category}
             </button>
