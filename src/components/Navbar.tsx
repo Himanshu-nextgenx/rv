@@ -29,28 +29,28 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between gap-4 px-4">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 pr-4">
-          <div className="relative w-10 h-10 flex items-center justify-center">
-            <svg viewBox="0 0 100 80" className="w-full h-full">
-              {/* R shape */}
+        <a href="#" className="flex items-center gap-3 pr-4">
+          <div className="relative w-12 h-10 flex items-center justify-center">
+            <svg viewBox="0 0 120 80" className="w-full h-full" fill="none">
+              {/* Combined RV shape - outer outline */}
               <path
-                d="M10 70 L10 10 L30 10 L45 25 L30 40 L50 70 L38 70 L22 45 L22 70 Z"
-                fill="currentColor"
-                className="text-secondary-foreground"
+                d="M5 75 L35 10 L60 55 L85 10 L115 10 L115 15 L88 15 L60 65 L32 15 L10 75 Z"
+                fill="white"
               />
-              {/* V shape with camera lens */}
+              {/* Inner V cutout to create the R effect */}
               <path
-                d="M45 10 L60 50 L75 10 L88 10 L65 70 L55 70 L32 10 Z"
-                fill="currentColor"
-                className="text-secondary-foreground"
+                d="M25 65 L45 25 L60 50 L75 25 L95 25 L60 75 Z"
+                fill="white"
               />
-              {/* Camera lens circle */}
-              <circle cx="60" cy="28" r="8" fill="hsl(200 80% 50%)" />
-              <circle cx="60" cy="28" r="4" fill="hsl(200 90% 30%)" />
-              <circle cx="58" cy="26" r="1.5" fill="hsl(200 80% 70%)" />
+              {/* Camera lens - outer ring */}
+              <circle cx="60" cy="32" r="10" fill="#0EA5E9" />
+              {/* Camera lens - inner dark */}
+              <circle cx="60" cy="32" r="6" fill="#0C4A6E" />
+              {/* Camera lens - highlight */}
+              <circle cx="57" cy="29" r="2" fill="#7DD3FC" />
             </svg>
           </div>
-          <span className="font-bold text-secondary-foreground hidden sm:inline tracking-wider">
+          <span className="font-bold text-secondary-foreground hidden sm:inline tracking-[0.2em] text-sm">
             RV VISIONARY
           </span>
         </a>
