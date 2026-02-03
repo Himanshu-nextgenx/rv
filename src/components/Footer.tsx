@@ -139,7 +139,7 @@ export const Footer = () => {
                     Location
                   </p>
                   <p className="text-sm text-secondary-foreground/80">
-                    Noida, Uttar Pradesh, India – 201301
+                    Hanuman circle Alwar Rajasthan
                   </p>
                 </div>
               </div>
@@ -153,12 +153,12 @@ export const Footer = () => {
                     WhatsApp
                   </p>
                   <a
-                    href="#"
+                    href="https://wa.me/917597607080?text=what%20kind%20of%20product%20you%20want"
                     target="_blank"
                     rel="noreferrer"
                     className="text-sm text-secondary-foreground/80 hover:text-green-500"
                   >
-                    +91 98765 XXXXX
+                    +91 7597 607 080
                   </a>
                 </div>
               </div>

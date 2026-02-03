@@ -89,17 +89,19 @@ export const Navbar = () => {
         </div>
 
         {/* CTA */}
-        <Button
-          variant="neon"
-          size="sm"
-          className="
-            h-6 sm:h-8 md:h-9
-            px-2 sm:px-3 md:px-4
-            text-[9px] sm:text-[11px] md:text-xs lg:text-sm
-          "
-        >
-          Contact
-        </Button>
+        <a href="tel:+917597607080">
+          <Button
+            variant="neon"
+            size="sm"
+            className="
+              h-6 sm:h-8 md:h-9
+              px-2 sm:px-3 md:px-4
+              text-[9px] sm:text-[11px] md:text-xs lg:text-sm
+            "
+          >
+            Contact
+          </Button>
+        </a>
       </div>
     </nav>
   );

@@ -134,7 +134,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="text-sm text-secondary-foreground/70">Email</p>
                   <p className="font-semibold text-secondary-foreground">
-                    contact@sonusingh.dev
+                    sonudeveloper4141@gmail.com
                   </p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="text-sm text-secondary-foreground/70">Phone</p>
                   <p className="font-semibold text-secondary-foreground">
-                    +91 98765 XXXXX
+                    +91 7597 607 080
                   </p>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export const ContactSection = () => {
                     Location
                   </p>
                   <p className="font-semibold text-secondary-foreground">
-                    Mumbai, India
+                    Hanuman circle Alwar Rajasthan
                   </p>
                 </div>
               </div>

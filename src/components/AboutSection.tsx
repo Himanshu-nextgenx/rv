@@ -1,4 +1,5 @@
-import aboutTeam from "@/assets/developer_about.png";
+import aboutTeam from "@/assets/sonu_singh_about.png";
+
 
 export const AboutSection = () => {
   return (
@@ -61,7 +62,7 @@ export const AboutSection = () => {
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-secondary/90 backdrop-blur-sm rounded-2xl p-4">
                   <p className="text-primary font-bold text-lg mb-1">
-                    Our Studio
+                    Sonu Developer
                   </p>
                   <p className="text-secondary-foreground/70 text-sm">
                     Where creativity meets excellence
