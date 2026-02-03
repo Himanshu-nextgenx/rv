@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Star, Sparkles, Camera, Video } from "lucide-react";
-import heroPerson from "@/assets/hero-persons.png";
+import { Star, Sparkles, Code, Smartphone } from "lucide-react";
+import heroPerson from "@/assets/hero_coding_developer.png";
 
 export const HeroSection = () => {
   return (
@@ -11,18 +11,16 @@ export const HeroSection = () => {
           <div className="animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full mb-6">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium">Creative Media Agency</span>
+              <span className="text-sm font-medium">Expert Full-Stack Developer</span>
             </div>
 
             <h1 className="heading-xl mb-6">
-              Empowering Brands Through{" "}
-              <span className="text-primary">Creative</span> Solutions
+              Building Scalable <span className="text-primary">Software</span> Solutions
             </h1>
 
             <p className="body-lg mb-8 max-w-lg">
-              We help brands grow through stunning visuals, cinematic video
-              production, and strategic digital marketing that captivates
-              audiences.
+              I help businesses build powerful web and mobile applications, from
+              concept to deployment, with a focus on UI/UX and performance.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
@@ -53,7 +51,7 @@ export const HeroSection = () => {
                   ))}
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Trusted by 2000+ clients
+                  Trusted by 50+ clients
                 </p>
               </div>
             </div>
@@ -79,7 +77,7 @@ export const HeroSection = () => {
                 <div className="flex items-center gap-2">
                   <Star className="w-5 h-5 text-primary fill-primary" />
                   <div>
-                    <p className="text-xl font-bold">10+</p>
+                    <p className="text-xl font-bold">5+</p>
                     <p className="text-xs text-secondary-foreground/70">
                       Years Experience
                     </p>
@@ -87,14 +85,14 @@ export const HeroSection = () => {
                 </div>
               </div>
 
-              {/* Floating Icon - Camera */}
+              {/* Floating Icon - Code */}
               <div className="absolute -left-6 top-1/3 w-14 h-14 bg-primary rounded-2xl flex items-center justify-center shadow-neon animate-float" style={{ animationDelay: "0.5s" }}>
-                <Camera className="w-6 h-6 text-primary-foreground" />
+                <Code className="w-8 h-8 text-primary-foreground" />
               </div>
 
-              {/* Floating Icon - Video */}
+              {/* Floating Icon - Smartphone */}
               <div className="absolute -left-2 bottom-1/4 w-12 h-12 bg-secondary rounded-xl flex items-center justify-center shadow-premium animate-float" style={{ animationDelay: "1s" }}>
-                <Video className="w-5 h-5 text-primary" />
+                <Smartphone className="w-6 h-6 text-primary" />
               </div>
 
               {/* Decorative Scribbles */}

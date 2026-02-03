@@ -3,26 +3,26 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Priya Sharma",
-    role: "CEO, TechStart India",
+    name: "Vikram Malhotra",
+    role: "Proprietor, Spicy Bites",
     content:
-      "RV Visionary transformed our brand identity completely. Their attention to detail and creative vision exceeded all our expectations.",
+      "The food delivery app Sonu built for us increased our orders by 40%. The UI is smooth and customers love the live tracking feature.",
     rating: 5,
   },
   {
     id: 2,
-    name: "Rahul Mehta",
-    role: "Founder, Lifestyle Co.",
+    name: "Aditi Rao",
+    role: "Founder, StyleHub",
     content:
-      "The video production quality was outstanding. They captured the essence of our brand perfectly. Highly recommended!",
+      "Working with Sonu was a game-changer. He delivered a robust ecommerce platform that handles thousands of users seamlessly.",
     rating: 5,
   },
   {
     id: 3,
-    name: "Anita & Vikram",
-    role: "Wedding Clients",
+    name: "Rajesh Gupta",
+    role: "CTO, FinTech Solutions",
     content:
-      "Our wedding film was absolutely magical. Every moment was captured beautifully. We couldn't have asked for better!",
+      "Exceptional coding standards and timely delivery. The custom software solution he architected solved our complex data management issues.",
     rating: 5,
   },
 ];

@@ -18,12 +18,12 @@ export const ContactSection = () => {
   };
 
   const services = [
-    "Video Production",
-    "Photography",
-    "Digital Marketing",
-    "Brand Identity",
-    "Social Media",
-    "Wedding Services",
+    "App Development",
+    "Website Development",
+    "Ecommerce Solutions",
+    "Food Delivery Systems",
+    "UI/UX Design",
+    "Custom Software",
   ];
 
   return (
@@ -134,7 +134,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="text-sm text-secondary-foreground/70">Email</p>
                   <p className="font-semibold text-secondary-foreground">
-                    hello@rvvisionary.com
+                    contact@sonusingh.dev
                   </p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="text-sm text-secondary-foreground/70">Phone</p>
                   <p className="font-semibold text-secondary-foreground">
-                    +91 98765 43210
+                    +91 98765 XXXXX
                   </p>
                 </div>
               </div>

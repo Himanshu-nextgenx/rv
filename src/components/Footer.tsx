@@ -15,14 +15,14 @@ import footerLogo from "@/assets/logo.png";
 /* ================= FOOTER LINKS ================= */
 const footerLinks = {
   services: [
-    "Cinematic Video Production",
-    "Professional Photography",
-    "Digital Marketing",
-    "Brand Identity Design",
-    "Social Media Handling",
-    "Wedding & Prewedding Shoots",
+    "App Development",
+    "Website Development",
+    "Ecommerce Solutions",
+    "Food Delivery Systems",
+    "UI/UX Design",
+    "Custom Software Development",
   ],
-  company: ["About Us", "Our Work", "Careers", "Contact Us"],
+  company: ["About Me", "My Work", "Careers", "Contact Me"],
 };
 
 /* ================= SOCIAL LINKS ================= */
@@ -49,17 +49,17 @@ export const Footer = () => {
             <div className="flex items-center gap-4 mb-8">
               <img
                 src={footerLogo}
-                alt="RV Visionary"
+                alt="Sonu Singh"
                 className="h-12 w-auto object-contain mix-blend-screen scale-125"
               />
               <span className="font-black text-2xl tracking-tighter">
-                RV <span className="text-primary">VISIONARY</span>
+                SONU <span className="text-primary">SINGH</span>
               </span>
             </div>
 
             <p className="text-secondary-foreground/60 mb-8 text-lg leading-relaxed max-w-sm">
-              Empowering brands through creative visual storytelling and digital
-              excellence. We turn visions into cinematic reality.
+              Empowering businesses through cutting-edge web and mobile
+              solutions. I turn complex ideas into digital reality.
             </p>
 
             {/* Social Icons */}
@@ -139,7 +139,7 @@ export const Footer = () => {
                     Location
                   </p>
                   <p className="text-sm text-secondary-foreground/80">
-                    Film City Road, Goregaon East, Mumbai – 400063
+                    Noida, Uttar Pradesh, India – 201301
                   </p>
                 </div>
               </div>
@@ -153,12 +153,12 @@ export const Footer = () => {
                     WhatsApp
                   </p>
                   <a
-                    href="https://wa.me/919876543210?text=Hi%20RV%20Visionary%2C%20I%20want%20to%20discuss%20a%20project"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                     className="text-sm text-secondary-foreground/80 hover:text-green-500"
                   >
-                    Chat on WhatsApp
+                    +91 98765 XXXXX
                   </a>
                 </div>
               </div>
@@ -171,7 +171,7 @@ export const Footer = () => {
       <div className="border-t border-white/10 relative z-10">
         <div className="container-custom py-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-secondary-foreground/40 text-sm">
-            © 2026 RV Visionary. All rights reserved.
+            © 2026 Sonu Singh. All rights reserved.
           </p>
           <div className="flex gap-8 text-sm">
             <a href="#" className="text-secondary-foreground/40 hover:text-primary">

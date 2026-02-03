@@ -1,4 +1,4 @@
-import aboutTeam from "@/assets/about-team.jpg";
+import aboutTeam from "@/assets/developer_about.png";
 
 export const AboutSection = () => {
   return (
@@ -7,24 +7,23 @@ export const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <div>
-            <span className="tag-neon mb-6">CREATIVE AGENCY</span>
+            <span className="tag-neon mb-6">FULL-STACK DEVELOPER</span>
 
             <h2 className="heading-lg text-secondary-foreground mb-6">
-              Turning Ideas Into{" "}
-              <span className="text-primary">Masterpieces</span>
+              Engineering Digital <span className="text-primary">Experiences</span>
             </h2>
 
             <p className="text-lg text-secondary-foreground/70 mb-8 leading-relaxed">
-              At RV Visionary, we believe every brand has a unique story waiting
-              to be told. Our team of passionate creatives combines artistic
-              vision with strategic thinking to deliver content that doesn't
-              just look beautiful—it drives results.
+              I am Sonu Singh, a passionate developer dedicated to building
+              high-quality web and mobile applications. With expertise in
+              modern frameworks, I focus on creating scalable solutions that
+              solve real-world problems.
             </p>
 
             <p className="text-lg text-secondary-foreground/70 mb-8 leading-relaxed">
-              From cinematic productions to scroll-stopping social media
-              content, we're your partners in building a visual identity that
-              resonates with your audience and elevates your brand.
+              From the initial brainstorm through to the final line of code,
+              I take pride in delivering robust, user-centric software that
+              helps businesses thrive in the digital age.
             </p>
 
             <div className="flex flex-wrap gap-4">

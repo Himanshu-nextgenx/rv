@@ -1,38 +1,38 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import workVideo from "@/assets/work-video.jpg";
+import workVideo from "@/assets/app_development_mockup.png";
 
 const services = [
   {
     number: "01",
-    title: "Cinematic Video Production",
-    description: "High-end video production with storytelling that captivates",
+    title: "App Development",
+    description: "Custom Android and iOS applications built with Flutter and React Native",
   },
   {
     number: "02",
-    title: "Professional Photography",
-    description: "Stunning imagery that brings your brand to life",
+    title: "Website Development",
+    description: "Responsive and high-performance websites using React, Next.js, and Node.js",
   },
   {
     number: "03",
-    title: "Digital Marketing",
-    description: "Strategic campaigns that drive growth and engagement",
+    title: "Ecommerce Solutions",
+    description: "Scalable online stores with seamless payment integration and management",
   },
   {
     number: "04",
-    title: "Brand Identity Design",
-    description: "Complete visual identity systems for memorable brands",
+    title: "Food Delivery Systems",
+    description: "Complete end-to-end solutions for restaurants and delivery businesses",
   },
   {
     number: "05",
-    title: "Social Media Handling",
-    description: "Content creation and management that builds communities",
+    title: "UI/UX Design",
+    description: "User-centric designs that provide intuitive and engaging experiences",
   },
   {
     number: "06",
-    title: "Wedding Photography & Videography",
-    description: "Capturing your special moments with cinematic elegance",
+    title: "Custom Software Development",
+    description: "Tailored software solutions to solve your specific business challenges",
   },
 ];
 
@@ -99,18 +99,6 @@ export const ServicesSection = () => {
                   alt="Our production work"
                   className="w-full h-full object-cover"
                 />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <button className="w-20 h-20 bg-primary rounded-full flex items-center justify-center shadow-neon hover:scale-110 transition-transform">
-                    <svg
-                      className="w-8 h-8 text-primary-foreground ml-1"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </button>
-                </div>
               </div>
 
               <div className="flex flex-wrap gap-4">

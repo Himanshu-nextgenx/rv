@@ -1,52 +1,53 @@
 import { useState } from "react";
 import { Play, X } from "lucide-react";
-import workWedding from "@/assets/work-wedding.jpg";
-import workProduct from "@/assets/work-product.jpg";
-import workVideo from "@/assets/work-video.jpg";
-import workBrand from "@/assets/work-brand.jpg";
+import workWedding from "@/assets/ecommerce_project.png";
+import workProduct from "@/assets/food_delivery_project.png";
+import workVideo from "@/assets/app_development_mockup.png";
+import workBrand from "@/assets/ui_ux_design.png";
+import workWeb from "@/assets/web_dev_project.png";
 
 const works = [
   {
     id: 1,
-    title: "Royal Wedding Film",
-    category: "Wedding",
-    image: workWedding,
-    isVideo: true,
-  },
-  {
-    id: 2,
-    title: "Luxury Product Shoot",
-    category: "Photography",
+    title: "FoodieApp Delivery",
+    category: "App Dev",
     image: workProduct,
     isVideo: false,
   },
   {
+    id: 2,
+    title: "ElectroStore Ecom",
+    category: "Web Dev",
+    image: workWeb,
+    isVideo: false,
+  },
+  {
     id: 3,
-    title: "Music Video Production",
-    category: "Video",
+    title: "HealthConnect App",
+    category: "App Dev",
     image: workVideo,
-    isVideo: true,
+    isVideo: false,
   },
   {
     id: 4,
-    title: "Premium Brand Identity",
-    category: "Branding",
+    title: "Portfolio CMS",
+    category: "Web Dev",
     image: workBrand,
     isVideo: false,
   },
   {
     id: 5,
-    title: "Corporate Documentary",
-    category: "Video",
-    image: workVideo,
-    isVideo: true,
+    title: "EduTech Platform",
+    category: "Web Dev",
+    image: workWeb,
+    isVideo: false,
   },
   {
     id: 6,
-    title: "Pre-Wedding Story",
-    category: "Wedding",
-    image: workWedding,
-    isVideo: true,
+    title: "QuickDash Logistics",
+    category: "App Dev",
+    image: workProduct,
+    isVideo: false,
   },
 ];
 
@@ -54,7 +55,7 @@ export const WorkSection = () => {
   const [selectedWork, setSelectedWork] = useState<number | null>(null);
   const [filter, setFilter] = useState<string>("All");
 
-  const categories = ["All", "Video", "Photography", "Wedding", "Branding"];
+  const categories = ["All", "App Dev", "Web Dev"];
 
   const filteredWorks =
     filter === "All"

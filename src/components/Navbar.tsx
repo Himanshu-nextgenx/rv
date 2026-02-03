@@ -49,7 +49,7 @@ export const Navbar = () => {
         <a href="#" className="flex items-center flex-shrink-0">
           <img
             src={logo}
-            alt="RV Visionary"
+            alt="Sonu Singh"
             className="
               h-4 sm:h-6 md:h-8
               w-auto object-contain
